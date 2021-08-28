@@ -34,9 +34,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 100
 
 // Underglow
-/*
 #undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 10   // Number of LEDs
 #define RGBLIGHT_SLEEP
-*/
+#define RGBLIGHT_SPLIT
+#define RGBLED_SPLIT { 5, 5 }
+
+// RBG Lighting Layers
+#define RGBLIGHT_LAYERS
